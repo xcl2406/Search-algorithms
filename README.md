@@ -67,8 +67,53 @@ Greedy works under the principle:
 📦 Classic Examples
 - Prim's/Kruskal's Algorithm (for Minimum Spanning Tree)
 
-- Dijkstra's Algorithm (for shortest path with non-negative weights)
+------------------------------------------------------------------
 
-- Coin change problem (if denominations are suitable)
+🧭 Breadth-First Search (BFS) Algorithm
 
-- Huffman encoding
+Breadth-First Search (BFS) is a fundamental algorithm for searching or traversing graphs and trees. It is widely used in:
+
+- Social networks (e.g., finding the shortest connection between people)
+
+- Web crawling
+
+- Solving puzzles (like mazes)
+
+- Routing and network broadcasting
+
+🔍 What is BFS trying to do?
+- BFS explores a graph level by level starting from a given source node.
+- Its goal is to find the shortest path (in terms of number of edges) from the start node to all other nodes in an unweighted graph.
+
+🧠 Core Idea
+BFS uses a queue (FIFO – First In, First Out) to keep track of nodes to visit next.
+
+At each step, it:
+
+- Dequeues the current node
+
+- Explores all its unvisited neighbors
+
+- Enqueues those neighbors
+
+- Repeats until the target is found (or all nodes are visited)
+
+🛠️ Key Properties
+- Complete: Yes (it always finds a solution if one exists)
+
+- Optimal: Yes (in unweighted graphs)
+
+- Time Complexity: O(V + E), where V = vertices, E = edges
+
+- Space Complexity: O(V), due to storing visited nodes and queue
+
+📦 Real-world Use Cases
+- Finding shortest paths in unweighted maps
+
+- Solving puzzles like sliding tiles or Rubik’s cube
+
+- Peer-to-peer networks (e.g., BitTorrent)
+
+- Broadcasting in networked systems
+
+
