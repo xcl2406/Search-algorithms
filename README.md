@@ -4,7 +4,7 @@ The A* (A-star) algorithm is a popular pathfinding and graph traversal algorithm
 
 - Robotics (navigation)
 
-- Network routing
+- Network routing 
 
 - Map-based route planning (e.g., Google Maps)<br>
 
